@@ -2,12 +2,27 @@
 
 사내 임직원 대상 AI 기초 강의자료입니다. **ChatGPT와 Claude를 함께** 다루고, 60분 중 절반을 **업무 문서 만들기 실습**에 씁니다.
 
-## 구성
+## 폴더 구조
 
-| 파일 | 내용 |
-|------|------|
-| `index.html` | **반응형 프레젠테이션** (28장). 강의장에서 띄우는 용도 |
-| `handbook.html` | **교재** — 개념 핵심 · 업무 핵심 · 전체 교재 3개 탭. 배포·복습용 |
+```
+ai-basics/
+├── docs/          ← 강의자료 (GitHub Pages가 이 폴더를 그대로 배포)
+│   ├── index.html      반응형 프레젠테이션 28장
+│   └── handbook.html   교재 (개념 핵심 · 업무 핵심 · 전체 교재 3탭)
+├── src/           ← 원고 · 소스
+│   └── 260901_AI기초강의자료_마건우_v2.0.md   원고 정본
+└── README.md
+```
+
+| 경로 | 역할 | 주소 |
+|------|------|------|
+| `docs/index.html` | 강의장에서 띄우는 프레젠테이션 | https://gwma-manager.github.io/ai-basics/ |
+| `docs/handbook.html` | 배포·복습용 교재 | https://gwma-manager.github.io/ai-basics/handbook.html |
+| `src/*.md` | **원고 정본.** 내용은 여기서 먼저 고칩니다 | — |
+
+**수정 순서** — `src/` 원고 수정 → `docs/` 반영 → commit·push → 1~2분 뒤 사이트 자동 갱신.
+
+> PDF는 레포에 올리지 않습니다. 필요하면 프레젠테이션에서 브라우저 인쇄 → PDF로 그때 뽑아 씁니다. (`.gitignore`에 `*.pdf` 등록)
 
 ## 프레젠테이션 조작
 

@@ -1,0 +1,8 @@
+# PDF는 레포에 올리지 않습니다 (배포는 docs/ 의 HTML로, PDF는 브라우저 인쇄로 그때그때 뽑아 씁니다)
+*.pdf
+
+# 작업 부산물
+.DS_Store
+*.part
+_*.html
+node_modules/
