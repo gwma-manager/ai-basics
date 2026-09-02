@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <title>AI 기초 — ChatGPT와 Claude로 업무 문서 만들기</title>
-<meta name="description" content="사내 임직원 대상 AI 기초 강의 60분. 기초 개념 15분 + 지시문 10분 + 문서 만들기 실습 22분.">
+<meta name="description" content="사내 임직원 대상 AI 기초 강의 60분. 기초 개념 · 지시문 · 문서 만들기 실습 18분 · 며칠짜리 일 맡기기(PDCA).">
 <meta name="color-scheme" content="light dark">
 <style>
   :root{
@@ -212,10 +212,10 @@
     <div class="tw"><table>
       <tbody>
         <tr><td>5~20분</td><td><strong>기초 개념</strong> — 엔진과 서비스, 모델, 원리 세 줄</td></tr>
-        <tr><td>20~30분</td><td><strong>잘 시키는 법</strong> — 지시문 뼈대</td></tr>
-        <tr><td>30~52분</td><td><strong>실습</strong> — 업무 문서 한 건을 끝까지</td></tr>
-        <tr><td>52~57분</td><td>지켜야 할 것 · 다음 단계</td></tr>
-        <tr><td>57~60분</td><td>Q&amp;A</td></tr>
+        <tr><td>20~29분</td><td><strong>잘 시키는 법</strong> — 지시문 뼈대</td></tr>
+        <tr><td>29~47분</td><td><strong>실습</strong> — 업무 문서 한 건을 끝까지</td></tr>
+        <tr><td>47~55분</td><td><strong>일이 커지면</strong> — 며칠짜리 일 맡기기</td></tr>
+        <tr><td>55~60분</td><td>지켜야 할 것 · 마무리 · Q&amp;A</td></tr>
       </tbody>
     </table></div>
     <p class="lead">개념은 오늘 실습에 필요한 만큼만 다룹니다. 나머지는 교재에 남겨두었습니다.</p>
@@ -257,7 +257,7 @@
         <tr><td>만든 곳</td><td>OpenAI</td><td>Anthropic</td></tr>
         <tr><td>공통</td><td colspan="2">대화 · 파일 업로드 · 웹 검색 · 이미지 인식 · 나에게 맞춘 기본 지침 저장</td></tr>
         <tr><td>체감 강점</td><td>이미지 생성, 폭넓은 기능</td><td>긴 문서 다루기, 결과물을 옆 화면에 띄워 고치기</td></tr>
-        <tr><td>고르는 법</td><td colspan="2">둘 다 써보고 손에 붙는 쪽. 회사는 보통 하나로 통일합니다</td></tr>
+        <tr><td>고르는 법</td><td colspan="2">같은 걸 시켜보고 덜 고치게 되는 쪽. 회사는 보통 하나로 통일합니다</td></tr>
       </tbody>
     </table></div>
     <p class="lead">오늘 실습은 <strong>둘 중 무엇으로 해도 됩니다.</strong> 가능하면 같은 지시를 양쪽에 넣어 차이를 직접 보시는 걸 권합니다.</p>
@@ -267,7 +267,7 @@
   <section class="slide" data-sec="기초 개념">
     <div class="kicker">개념 3</div>
     <h2>모델은 성능 등급입니다</h2>
-    <p class="lead">같은 서비스 안에서도 <strong>여러 등급의 두뇌</strong> 중에 고릅니다. 일을 맡길 사람을 고르는 것과 같습니다.</p>
+    <p class="lead">같은 서비스 안에서도 <strong>등급을 골라서</strong> 씁니다. 빠른 대신 덜 똑똑한 것부터, 느린 대신 똑똑한 것까지 있습니다.</p>
     <div class="vs">
       <div><div class="lbl">ChatGPT</div><h5>GPT-5.6 계열</h5><p>솔(Sol) · 테라(Terra) · 루나(Luna). 무료·기본은 테라, 유료면 셋 중에 고릅니다.</p></div>
       <div><div class="lbl">Claude</div><h5>등급 4단계</h5><p>하이쿠 · 소네트 · 오퍼스 · 페이블. 아래로 갈수록 똑똑하고 비쌉니다.</p></div>
@@ -326,7 +326,7 @@
 
   <!-- 11 -->
   <section class="slide divider" data-sec="잘 시키는 법">
-    <div class="kicker">Part 02 · 10분</div>
+    <div class="kicker">Part 02 · 9분</div>
     <div class="big">잘 시키는 법</div>
     <p class="cue">결과 차이의 대부분은 모델이 아니라 지시에서 납니다.</p>
   </section>
@@ -374,7 +374,7 @@
 
   <!-- 15 -->
   <section class="slide divider" data-sec="실습">
-    <div class="kicker">Part 03 · 22분</div>
+    <div class="kicker">Part 03 · 18분</div>
     <div class="big">실습<br>업무 문서 만들기</div>
     <p class="cue">지금부터 각자 문서 한 건을 처음부터 끝까지 만듭니다. 화면을 따라오시면 됩니다.</p>
   </section>
@@ -407,7 +407,7 @@
 
   <!-- 18 -->
   <section class="slide" data-sec="실습">
-    <div class="kicker">STEP 1 · 5분</div>
+    <div class="kicker">STEP 1 · 4분</div>
     <h2>재료를 먼저 붙입니다</h2>
     <p class="lead">바로 문서를 쓰게 하지 않습니다. <strong>읽게 하고, 이해했는지 확인</strong>부터 합니다.</p>
     <div class="list">
@@ -425,13 +425,13 @@
     <div class="list">
       <div class="row"><div class="k">지시문</div><div class="v"><q>이 재료로 주간 업무 보고서 <strong>목차만</strong> 잡아줘. 항목 5개 이내, 각 항목에 한 줄 설명. 본문은 아직 쓰지 마.</q></div></div>
       <div class="row"><div class="k">고칠 때</div><div class="v"><q>3번 항목은 빼고, '다음 주 계획'을 맨 아래에 추가해줘.</q></div></div>
-      <div class="row"><div class="k">여기서 확인</div><div class="v">목차가 마음에 들 때까지 여기서 반복합니다. 시간을 여기에 쓰는 게 가장 남습니다.</div></div>
+      <div class="row"><div class="k">여기서 확인</div><div class="v">목차가 마음에 들 때까지 여기서 반복합니다. 여기서 5분 더 쓰면 뒤에서 30분을 아낍니다.</div></div>
     </div>
   </section>
 
   <!-- 20 -->
   <section class="slide" data-sec="실습">
-    <div class="kicker">STEP 3 · 6분</div>
+    <div class="kicker">STEP 3 · 5분</div>
     <h2>조건을 주고 채웁니다</h2>
     <p class="lead">이 단계에서 <strong>how</strong>를 씁니다. 분량·톤·형식·금지사항을 한꺼번에 줍니다.</p>
     <div class="list">
@@ -455,7 +455,7 @@
 
   <!-- 22 -->
   <section class="slide" data-sec="실습">
-    <div class="kicker">해보기 · 2분</div>
+    <div class="kicker">시간 남으면 · 2분</div>
     <h2>같은 지시를 양쪽에 넣어보기</h2>
     <p class="lead">STEP 2의 목차 지시문을 <strong>ChatGPT와 Claude에 똑같이</strong> 넣어보세요.</p>
     <div class="grid g3">
@@ -463,7 +463,7 @@
       <div class="card"><div class="t">볼 것 2</div><h5>말투</h5><p>보고서 톤에 손이 덜 가는 쪽은 어디인가</p></div>
       <div class="card"><div class="t">볼 것 3</div><h5>빠뜨린 것</h5><p>내가 중요하다고 본 항목을 넣었나</p></div>
     </div>
-    <p class="lead">정답은 없습니다. <strong>내 업무에 손이 덜 가는 쪽</strong>이 나에게 맞는 도구입니다.</p>
+    <p class="lead">정답은 없습니다. <strong>내가 덜 고치게 되는 쪽</strong>이 나에게 맞는 도구입니다.</p>
   </section>
 
   <!-- 23 -->
@@ -478,46 +478,98 @@
   </section>
 
   <!-- 24 -->
-  <section class="slide divider" data-sec="마무리">
+  <section class="slide divider" data-sec="일이 커지면">
     <div class="kicker">Part 04 · 8분</div>
-    <div class="big">마무리</div>
-    <p class="cue">지켜야 할 것과, 다음에 있는 것들.</p>
+    <div class="big">일이 커지면</div>
+    <p class="cue">문서 한 장은 30분입니다. 며칠짜리 일은 맡기는 방법이 달라집니다.</p>
   </section>
 
   <!-- 25 -->
+  <section class="slide" data-sec="일이 커지면">
+    <div class="kicker">왜 달라지나</div>
+    <h2>사흘짜리 일은 대화 하나에 안 들어갑니다</h2>
+    <p class="lead">지원사업 하나 찾아 사업계획서까지 쓰면 사흘 걸립니다. 중간에 다른 일이 끼어들고, 사흘째엔 어제 어디까지 했는지 잊습니다.</p>
+    <div class="grid g2">
+      <div class="card"><div class="t">문서 한 장</div><h5>30분 · 대화 하나</h5><p>재료 붙이고, 뼈대 잡고, 살 붙이고, 검토. 방금 한 것입니다.</p></div>
+      <div class="card hl"><div class="t">일 하나</div><h5>사흘 · 폴더 하나</h5><p>대화는 몇 번 끊깁니다. 그래도 일은 안 끊기게 굴리는 방법이 있습니다.</p></div>
+    </div>
+  </section>
+
+  <!-- 26 -->
+  <section class="slide" data-sec="일이 커지면">
+    <div class="kicker">PDCA</div>
+    <h2>방금 배운 네 단계가 그대로 커집니다</h2>
+    <div class="tw"><table>
+      <thead><tr><th>방금 한 것</th><th>일이 커지면</th><th>무엇을</th></tr></thead>
+      <tbody>
+        <tr><td>① 재료 · ② 뼈대</td><td><strong>Plan</strong> 계획</td><td>폴더 구조와 조사 범위를 먼저 정합니다</td></tr>
+        <tr><td>③ 살 붙이기</td><td><strong>Do</strong> 실행</td><td>쪼개서 시키고, 어디까지 했는지 파일에 남깁니다</td></tr>
+        <tr><td>④ 검토시키기</td><td><strong>Check</strong> 점검</td><td>AI가 먼저 되묻게 하고, 계획과 대조시킵니다</td></tr>
+        <tr><td>골라서 고치기</td><td><strong>Act</strong> 조치</td><td>틀린 단계부터 다시 돕니다</td></tr>
+      </tbody>
+    </table></div>
+    <p class="lead">PDCA는 공장 품질관리에서 쓰던 말입니다. 바퀴가 도는 자리만 <strong>대화에서 폴더로</strong> 바뀝니다.</p>
+  </section>
+
+  <!-- 27 -->
+  <section class="slide" data-sec="일이 커지면">
+    <div class="kicker">4부에서 이것 하나</div>
+    <h2>기억을 대화에 두지 말고 폴더에 둡니다</h2>
+    <p class="lead">원리 2를 다시 봅니다. AI는 기억하지 않습니다. 대화는 길어지면 흐려지고 닫으면 사라집니다. <strong>폴더에 남긴 파일은 안 사라집니다.</strong></p>
+    <div class="list">
+      <div class="row"><div class="k">흐려지면</div><div class="v">붙잡지 말고 새 대화를 엽니다</div></div>
+      <div class="row"><div class="k">새 대화 첫 줄</div><div class="v"><q>이 폴더의 문서들을 읽고 어디까지 했는지 판단해줘.</q></div></div>
+      <div class="row"><div class="k">그다음</div><div class="v">AI가 파일을 읽고 진행 상황을 복원합니다. 그 지점부터 이어서 시킵니다</div></div>
+    </div>
+    <div class="quote"><span class="mark">대화가 몇 번 끊겨도 일은 안 끊깁니다.</span></div>
+  </section>
+
+  <!-- 28 -->
+  <section class="slide" data-sec="일이 커지면">
+    <div class="kicker">지시문 그대로</div>
+    <h2>한 바퀴에 쓰는 말 네 마디</h2>
+    <div class="list">
+      <div class="row"><div class="k">Plan<em>계획</em></div><div class="v"><q>이 일을 진행할 폴더 구조와 문서 목록을 먼저 잡아줘. 어디를 뒤질지, 검색어는 뭘 쓸지도 같이.</q></div></div>
+      <div class="row"><div class="k">Do<em>실행</em></div><div class="v"><q>이 결과로 사업계획서를 써줘. 9개 항목으로 나누고 한 번에 하나씩. 어디까지 했는지 파일에 적어줘.</q></div></div>
+      <div class="row"><div class="k">Check<em>점검</em></div><div class="v"><q>이 폴더 문서들을 보고 어디까지 했는지, 처음 설계와 어긋난 데가 없는지 판단해줘.</q></div></div>
+      <div class="row"><div class="k">Act<em>조치</em></div><div class="v"><q>Check 결과 반영해서 Do부터 다시 시작해줘.</q> — 처음부터가 아니라 틀린 자리부터입니다</div></div>
+    </div>
+    <p class="lead">Plan에 한 마디 더 걸어둡니다 — <strong>"진행 전에, 나에게 확인받아야 할 지점을 먼저 물어봐."</strong> 잘못된 방향으로 사흘 가는 일이 없어집니다.</p>
+  </section>
+
+  <!-- 29 -->
   <section class="slide" data-sec="마무리">
     <div class="kicker">지켜야 할 것</div>
     <h2>두 가지만 지킵니다</h2>
     <div class="grid g2">
       <div class="card wr"><div class="t">보안</div><p>고객 개인정보·계약서·비밀번호는 채팅창에 붙여넣지 않습니다. 회사 계정으로, 회사가 허용한 서비스만 씁니다. 판단이 안 서면 붙여넣기 전에 물어보세요.</p></div>
-      <div class="card hl"><div class="t">검수</div><p>AI 결과물은 <strong>초안</strong>입니다. 숫자·날짜·금액·인용은 원본과 대조합니다. 밖으로 나가는 문서는 사람이 마지막 버튼을 누릅니다.</p></div>
+      <div class="card hl"><div class="t">검수</div><p>AI가 만든 것은 <strong>초안</strong>입니다. 숫자·날짜·금액·인용은 원본과 대조합니다. 밖으로 나가는 문서는 사람이 마지막 버튼을 누릅니다.</p></div>
     </div>
   </section>
 
-  <!-- 26 -->
+  <!-- 30 -->
   <section class="slide" data-sec="마무리">
-    <div class="kicker">다음 단계</div>
-    <h2>오늘 안 다룬 것들</h2>
-    <p class="lead">이름만 알아두시면 됩니다. 필요해질 때 그때 배우면 늦지 않습니다.</p>
+    <div class="kicker">다음에</div>
+    <h2>오늘 안 다룬 것</h2>
+    <p class="lead">이름만 알아두시면 됩니다. 필요해질 때 배워도 늦지 않습니다.</p>
     <div class="list">
-      <div class="row"><div class="k">반복 자동화</div><div class="v">한 번 잘 시킨 작업을 저장해두고, 메일·일정에 연결해, 정해진 때에 자동으로 돌리는 것.</div></div>
-      <div class="row"><div class="k">우리 자료로 답하기</div><div class="v">회사 문서를 등록해두고 <strong>그 안에서만</strong> 답하게 하는 방식(RAG). 고객 응대 챗봇이 이 구조입니다.</div></div>
-      <div class="row"><div class="k">화면·코드 만들기</div><div class="v">랜딩페이지·간단한 도구를 대화로 만들어 배포하는 것.</div></div>
+      <div class="row"><div class="k">반복 자동화</div><div class="v">잘 시킨 작업을 저장해두고 메일·일정에 붙여, 정해진 때에 돌리는 것</div></div>
+      <div class="row"><div class="k">우리 자료로만 답하기</div><div class="v">회사 문서를 등록해두고 그 안에서만 답하게 하는 방식(RAG). 고객 응대 챗봇이 이 구조입니다</div></div>
+      <div class="row"><div class="k">화면·코드 만들기</div><div class="v">랜딩페이지나 간단한 도구를 대화로 만들어 올리는 것</div></div>
     </div>
-    <p class="lead">지금 필요한 건 <strong>1단계 — 문서 만들기</strong>입니다. 이게 손에 붙으면 나머지는 자연스럽게 이어집니다.</p>
   </section>
 
-  <!-- 27 -->
+  <!-- 31 -->
   <section class="slide" data-sec="마무리">
     <div class="kicker">오늘 가져갈 것</div>
-    <h2>세 줄과 네 단계</h2>
+    <h2>세 줄, 네 단계, 한 바퀴</h2>
     <div class="grid g3">
-      <div class="card hl"><div class="t">원리 1</div><h5>예측한다</h5><p>결과물은 초안입니다.</p></div>
-      <div class="card hl"><div class="t">원리 2</div><h5>기억하지 않는다</h5><p>주제가 바뀌면 새 대화.</p></div>
-      <div class="card hl"><div class="t">원리 3</div><h5>준 것만 본다</h5><p>재료를 먼저 붙입니다.</p></div>
+      <div class="card hl"><div class="t">원리 세 줄</div><h5>예측한다<br>기억하지 않는다<br>준 것만 본다</h5></div>
+      <div class="card hl"><div class="t">문서 한 장</div><h5>재료 → 뼈대<br>→ 살 → 검토</h5></div>
+      <div class="card hl"><div class="t">일 하나</div><h5>계획 → 실행<br>→ 점검 → 조치</h5></div>
     </div>
-    <div class="loop">재료 붙이기  →  뼈대 잡기  →  살 붙이기  →  검토시키기</div>
-    <p class="lead">자세한 내용은 교재로 남겨두었습니다 — <a href="handbook.html" style="color:var(--accent)">교재 전문 보기</a></p>
+    <div class="quote"><span class="mark">기억은 대화에 두지 말고 폴더에 둡니다.</span></div>
+    <p class="lead">자세한 내용은 교재에 있습니다 — <a href="handbook.html" style="color:var(--accent)">교재 전문 보기</a></p>
   </section>
 
 </div>
